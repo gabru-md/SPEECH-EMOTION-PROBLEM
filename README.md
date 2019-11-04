@@ -26,6 +26,9 @@ The saved models are in the google drive and the link to which will be added onc
 To use the `test_data.py` simply activate the conda environment using the `create_env` bash file and type
 
 - `python3 test_data.py -i <folder_containing_test_files>`
+- e.g. `python3 test_data.py -i test_data` where `test_data` is the folder in the repository
+
+the folder `meld/test_img` is where the testing data is stored as spectrogram images hence the folders `test_data` and `meld/test_img` have been added.
 
 and it will generate a solution file named as `submissions.csv` in the main folder.
 
